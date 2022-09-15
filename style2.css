@@ -1,0 +1,62 @@
+.main-scroll-div {
+   width: 90%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+  
+}
+
+.cover {
+   position: relative;
+   width: 90%;
+   height: 50%;
+}
+
+.scroll-images {
+   width: 100;
+   height: auto;
+   display: flex;
+   justify-content: left;
+   align-items: center;
+   overflow: auto;
+   position: relative;
+   scroll-behavior: smooth;
+}
+
+.scroll-images::-webkit-scrollbar {
+   -webkit-appearance: none;
+}
+
+.child {
+   min-width: 600px;
+   height: 450px;
+   margin: 1px 10px;
+   cursor: pointer;
+   border: 1px solid white;
+   overflow: hidden;
+
+}
+
+I .child-img {
+
+   width: 100%;
+   height: 100%;
+}
+
+
+
+.icon {
+   color:#2568fb;
+   background-color: white;
+   font-size: 50px;
+   outline: none;
+   border: none;
+   padding: opx 20px;
+   cursor: pointer;
+}
+
+.main-scroll-div{
+ 
+   margin-left: 100px;
+}

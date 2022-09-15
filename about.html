@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Favorite Cartoon Character</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo4.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">HOME</a></li>
+                    <li> <a href="about.html">ABOUT</a></li>
+                    <li> <a href="course.html">SERVICES</a></li>
+                    <li> <a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+
+    </section>
+
+    <!----About Us content--->
+    <section class="row">
+        <div class="about-col">
+            <h1>Information About Best Bicycle</h1>
+            <p1>bicycle, also called bike, two-wheeled steerable machine that is pedaled by the rider’s feet. On a standard bicycle the wheels are mounted in-line in a metal frame, with the front wheel held in a rotatable fork. The rider sits on a saddle and steers by leaning and turning handlebars that are attached to the fork. The feet turn pedals attached to cranks and a chainwheel. Power is transmitted by a loop of chain connecting the chainwheel to a sprocket on the rear wheel. Riding is easily mastered, and bikes can be ridden with little effort at 16–24 km (10–15 miles) per hour—about four to five times the pace of walking. The bicycle is the most efficient means yet devised to convert human energy into mobility.
+                Bicycles are widely used for transportation, recreation, and sport (see cycling). Throughout the world, bicycles are essential to moving people and goods in areas where there are few automobiles. Globally, there are twice as many bicycles as automobiles, and they outsell automobiles three to one. The Netherlands, Denmark, and Japan actively promote bicycles for shopping and commuting. In the United States, bike paths have been constructed in many parts of the country, and bicycles are encouraged by the United States. </p1>
+            <a href="" class="hero-btn red-btn">BOOK NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/222.jpg" width="500" height="600" style="border-radius: 5%">
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <h4>About us</h4>
+        <p> Website is copyright 2021<br>
+            All copyright its original copyright</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made by <i class="fa fa-heart-o"></i> Abdelrahman Elsayed, Ahmed Elbadawy<br> and Ismail faried</p>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
